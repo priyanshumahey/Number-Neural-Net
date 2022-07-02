@@ -1,11 +1,15 @@
 # Number-Neural-Net
 
-Simple 2d convolution neural network that utilizes pytorch to figure out the numbers in the MNIST dataset.
+### Simple 2d convolution neural network that utilizes pytorch to figure out the numbers in the MNIST dataset.
 
 The neural network is described by class Net and it features 2 Convolutional layers followed by two fully connected linear layers. 
+
 The first convolution uses ReLU then has dropout and is followed by max pooling. 
+
 The second convolution layer also uses ReLU then has dropout and is followed by max pooling.
+
 The first linear layer uses ReLU and then dropout.
+
 The last linear layer uses a log softmax function.
 
 ```Py
